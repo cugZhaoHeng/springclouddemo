@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/quantity?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+  # 配置Eureka微服务注册信息
+  application:
+    name: service-provider
+
+# 添加MyBatis下的Mapper包扫描
+mybatis:
+  type-aliases-package: com.quantity.serviceprovider.mapper
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka
