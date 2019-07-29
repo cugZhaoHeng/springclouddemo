@@ -1,6 +1,6 @@
 server:
   port: 9999
-# 微服务名称，注入到Eureka容器中
+
 spring:
   application:
     name: quantity-eureka
@@ -9,5 +9,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:9999/eureka
   server:
-    eviction-interval-timer-in-ms: 500 # 剔除无效连接的间隔
-    enable-self-preservation: false # 关闭自我保护状态
+    eviction-interval-timer-in-ms: 500
+    enable-self-preservation: false

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclient/httpclient.iml" filepath="$PROJECT_DIR$/httpclient/httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quantity-train-hebernate/quantity-train-hebernate.iml" filepath="$PROJECT_DIR$/quantity-train-hebernate/quantity-train-hebernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceprovider/service-provider.iml" filepath="$PROJECT_DIR$/serviceprovider/service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceconsumer/serviceconsumer.iml" filepath="$PROJECT_DIR$/serviceconsumer/serviceconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/serviceprovider/serviceprovider.iml" filepath="$PROJECT_DIR$/serviceprovider/serviceprovider.iml" />
     </modules>

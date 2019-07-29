@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="httpclient" />
+        <module name="quantity-train-hebernate" />
+        <module name="service-provider" />
         <module name="serviceconsumer" />
         <module name="serviceprovider" />
       </profile>
@@ -15,6 +17,8 @@
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
       <module name="httpclient" target="1.5" />
+      <module name="quantity-train-hebernate" target="1.8" />
+      <module name="service-provider" target="1.8" />
       <module name="serviceconsumer" target="1.8" />
       <module name="serviceprovider" target="1.8" />
     </bytecodeTargetLevel>
